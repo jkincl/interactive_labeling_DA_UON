@@ -1,0 +1,60 @@
+{
+  "keysOrder": [ "Governance", "Risks", "Benefits", "Requirements", "Identify & Protect", "Detect", "Respond", "Recover", "Operator Support", "AI", "Outcome"],
+  "buttonsOrder": {
+    "Governance": [
+      "Accountability", "Auditing", "Environment Understanding", "Fairness", "Legal Liability"
+    ],
+    "Risks": [
+      "Accuracy", "AI Introduced Vulnerabilities", "AI Misconception", "Ethical Concerns", "Legal Risks"
+    ],
+    "Benefits": [
+      "Load Reduction", "Skills Augmentation", "Training & Education"
+    ],
+    "Requirements": [
+      "Education", "Explainability", "Human Oversight"
+    ],
+    "Identify & Protect": [
+      "Endpoint Security", "Threat Intelligence", "Proactive Defense"
+    ],
+    "Detect": [
+      "Alert Triage", "Classification", "Network & Data Monitoring", "Targeted Detection", "Vulnerability Identification"
+    ],
+    "Respond": [
+      "Accelerating Investigation", "Threat Mitigation"
+    ],
+    "Recover": [
+      "Accelerating Recovery"
+    ],
+    "Operator Support": [
+      "Task Automation", "Provide Information Summary", "Provide Interface", "Support Decision Making", "Task Assignment"
+    ],
+    "AI": [
+      "Generative AI", "Machine Learning", "Natural Language Processing"
+    ],
+    "Outcome": [
+      "Cost Reduction", "Faster Response", "Improved Readiness", "Performance Increase"
+    ]
+  },
+  "groups": [
+    {
+      "name": "Context",
+      "keys": ["Governance", "Risks"]
+    },
+    {
+      "name": "Human",
+      "keys": ["Benefits", "Requirements"]
+    },
+    {
+      "name": "Task",
+      "keys": ["Identify & Protect", "Detect", "Respond", "Recover", "Operator Support"]
+    },
+    {
+      "name": "Technology",
+      "keys": ["AI"]
+    },
+    {
+      "name": "Outcome",
+      "keys": ["Outcome"]
+    }
+  ]
+}
